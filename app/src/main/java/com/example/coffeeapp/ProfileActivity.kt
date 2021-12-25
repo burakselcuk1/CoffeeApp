@@ -14,7 +14,8 @@ class ProfileActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_profile)
 
-        floatingActionButton1.imageTintList = ColorStateList.valueOf(Color.rgb(255,50,50))
+        floatingActionButton1.imageTintList = ColorStateList.valueOf(Color.rgb(255,255,255))
+        floatingActionButton2.imageTintList = ColorStateList.valueOf(Color.rgb(255,255,255))
 
     }
 }
