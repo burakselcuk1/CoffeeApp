@@ -1,5 +1,6 @@
 package com.example.coffeeapp
 
+import android.content.Intent
 import android.content.res.ColorStateList
 import android.graphics.Color
 import android.os.Build
@@ -17,5 +18,19 @@ class ProfileActivity : AppCompatActivity() {
         floatingActionButton1.imageTintList = ColorStateList.valueOf(Color.rgb(255,255,255))
         floatingActionButton2.imageTintList = ColorStateList.valueOf(Color.rgb(255,255,255))
 
+
+        constraintLayout.setOnClickListener {
+
+            val intent = Intent(this,DetailsActivity::class.java)
+            startActivity(intent)
+
+        }
+
+        constraintLayout2.setOnClickListener {
+
+            val intent = Intent(this,DetailsActivity::class.java)
+            startActivity(intent)
+
+        }
     }
 }
